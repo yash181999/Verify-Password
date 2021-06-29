@@ -7,7 +7,7 @@ const checkPassword = (password) =>{
          throw "Password must contain a captial letter";
      } 
      else if(!/[a-z]/.test(password)) {
-         throw "Password must contain a small letter";
+         throw "Password must contain a lowercase letter";
      }
      else if(!/[0-9]/.test(password)) {
          throw "Password must contain a number";
