@@ -1,4 +1,4 @@
-# verfify_password
+# Verify Password
 This Repository contains a file which verify's  password on some given conditions.
 
 The conditions are - 
