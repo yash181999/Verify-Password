@@ -1,5 +1,5 @@
 
-const checkPassword = (password) =>{
+ const checkPassword = (password) =>{
      if(password === undefined || password === null || password == '' || password.length < 8) {
          throw "Password must be of atleast 8 characters";
      }   
@@ -17,3 +17,4 @@ const checkPassword = (password) =>{
      }
 }
 
+module.exports = {checkPassword}
